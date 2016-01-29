@@ -12,5 +12,5 @@ C++:
 g++ chicken.cpp roastduck.cpp duck.cpp main.cpp -o c_fowl
 
 Lua:
-1, swig -c++ -lua lua_fowl.i
-2, g++ chicken.cpp roastduck.cpp duck.cpp lua_main.cpp lua_fowl_wrap.cxx -I <path_to_lua_include> -L <path_to_lua_lib> -llua -lm -lldl -o fowl
+1. swig -c++ -lua lua_fowl.i
+2. g++ chicken.cpp roastduck.cpp duck.cpp lua_main.cpp lua_fowl_wrap.cxx -I <path_to_lua_include> -L <path_to_lua_lib> -llua -lm -lldl -o fowl
